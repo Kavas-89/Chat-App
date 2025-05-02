@@ -1,18 +1,22 @@
 {
-  "name": "chat-app",
+  "name": "vangapalagalam",
   "version": "1.0.0",
-  "description": "a real time chat application",
+  "description": "chat app for friends",
   "main": "index.js",
   "type": "module",
   "scripts": {
     "start": "node server",
-    "dev": "node --watch server"
+    "dev": "nodemon server"
   },
   "author": "Kavas V",
   "license": "MIT",
   "dependencies": {
     "dotenv": "^16.5.0",
     "express": "^5.1.0",
+    "moment": "^2.30.1",
     "socket.io": "^4.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
   }
 }
